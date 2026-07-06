@@ -4,6 +4,8 @@ A category-agnostic, versioned, refreshable prior-authorization rules engine. **
 data, not code.** The engine evaluates an already-extracted patient case against the payer
 policy in force on the service date and returns a verdict with the specific gap.
 
+Live demo: https://6a3519288223ad6b8ae126c5--beautiful-stroopwafel-bae152.netlify.app/
+
 - **No runtime LLM.** The shipped engine makes no model/API calls and depends on no LLM SDK.
   Model reasoning happens only at *build time* (an agent reading policy text and authoring
   criteria packs), which is committed, diff-able data that a human reviews before activation.
