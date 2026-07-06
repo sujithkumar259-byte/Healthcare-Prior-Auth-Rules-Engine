@@ -1,4 +1,4 @@
-# Coral Prior-Authorization Rules Engine
+# Prior-Authorization Rules Engine
 
 A category-agnostic, versioned, refreshable prior-authorization rules engine. **Rules are
 data, not code.** The engine evaluates an already-extracted patient case against the payer
